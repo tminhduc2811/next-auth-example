@@ -6,6 +6,26 @@
   justify-content: center;
   align-items: center;
 }
+.container a {
+  color: blue;
+}
+.btn {
+  padding: 10px;
+  background-color: rgba(236, 201, 41, 0.856);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: none;
+  color: white;
+  transition: .3s;
+}
+
+.btn:focus {
+  outline: none;
+  background-color:rgba(236, 168, 41, 0.856);
+}
 
 .main {
   padding: 5rem 0;
